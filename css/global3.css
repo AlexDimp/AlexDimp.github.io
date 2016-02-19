@@ -1,0 +1,264 @@
+#info {position: fixed; top:0;font-size: 3em;color: #000;}
+
+li {list-style: none;}
+
+footer .reseaux .icon-fontello:before{font-size: 7em;}
+
+header{position: absolute;}
+
+#content {width: 960px; margin: 0 auto; position: relative;opacity: 0;text-align: center;display: block;}
+
+.container {width: 960px;margin: 0 auto;position: absolute;}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+ }
+
+path{
+    stroke-dasharray:2400px;
+    stroke-dashoffset:12000px;
+    fill:none;
+    stroke:rgb(123,36,129);
+    stroke-width:2px;
+    stroke-linecap: round;
+    stroke-linejoin: round; }
+
+html|* > svg {
+    transform-origin: 50% 50% 0px;
+}
+user agent stylesheetsvg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}
+user agent stylesheet* {
+    transform-origin: 0px 0px 0px;
+}
+
+.baobab{
+    display: block;
+    position:fixed;
+    right:120px;
+    top:32.3%;
+    z-index:10;
+}
+
+#baobabis {display: none;}
+
+.baobab button{
+    display: block;
+    width:30px;
+    height:30px;
+    border:solid 1.5px rgb(123,36,129);
+    border-radius:15px;
+    background:white;
+    color:rgb(123,36,129);
+    font-size:1em;
+    font-weight: bold;
+    cursor:pointer;
+    outline-style:none;
+    margin-top: 5%;
+    
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.baobab button:hover {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;}
+
+
+
+
+#rub1,#rub2,#rub3,#rub4,#rub5,#rub6,#rub7,#rub8,#rub9 {position: relative;height: 850px;background: url(../images/background-white.png)no-repeat center;}
+
+#content-rub1 {position: relative; display: block; width: 75%; margin: 0 auto;text-align: center;top:35%;}
+#content-rub1 p {position: relative;display:block;margin: 0 auto;text-align: center;font-size: 2em;width: 100%;line-height: 1.3;font-weight: 100;}
+#content-rub1 b{font-weight: 500;}
+
+.content-rub {position: relative; display: block; width: 70%; margin: 0 auto;text-align: center;top:35%;/*transform: scale(0);transition: all 0.4s cubic-bezier(0.64, 0.57, 0.67, 1.53);*/}
+.content-rub p {position: relative;display:block;margin: 0 auto;text-align: center;font-size: 2em;width: 100%;line-height: 1.3;font-weight: 100;/*opacity: 0;*/}
+.content-rub p em{font-style:italic;}
+
+#retour button{
+    position: absolute;
+    width:30px;
+    height:30px;
+    margin: 0 auto;
+    border:solid 1.5px rgb(123,36,129);
+    border-radius:15px;
+    background:rgb(123,36,129);
+    color:white;
+    font-size:1em;
+    font-weight: bold;
+    cursor:pointer;
+    outline-style:none;
+    bottom:320px;
+    z-index: 4;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#retour button:hover {background:white;color: rgb(123,36,129);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;}
+
+footer {margin-top: -250px;}
+
+
+
+@media screen and (max-width:1280px){
+    
+    #content-rub1 p {font-size: 1.8em;}
+    .content-rub p {font-size: 1.8em;}
+    #content-rub9 p {font-size: 1.8em;}
+    
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+    
+    
+    #baobab1 {display: none;}
+    
+    #baobabis{
+        display: block;
+        width: 100%;
+        right:0px;
+        margin: 0 auto;
+        text-align: center;
+        top:80%;
+        background-color: rgba(255, 255, 255, 0.9);
+        
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;}
+
+    #baobabis button{
+        display: inline-block;
+        width:30px;
+        height:30px;
+        margin-right: 0.3em;
+        margin-top: 0em;}
+    
+    svg {display: none;}
+
+}
+
+
+@media screen and (max-width:980px){
+    
+    #content {width: 100%;}
+    
+
+}
+
+@media screen and (max-width:768px){
+
+    #content-rub1 p {font-size: 1.6em;}
+    .content-rub p {font-size: 1.6em;}
+    #content-rub9 p {font-size: 1.6em;}
+    
+    .content-rub {top:45%;}
+    #content-rub9 {top:35%;}
+    #content-rub1 {top:45%;}
+}
+
+@media screen and (max-width:670px){
+    
+    #rub1,#rub2,#rub3,#rub4,#rub5,#rub6,#rub7,#rub8,#rub9 {height: 550px;}
+
+ 
+    #content-rub1 p {font-size: 1.3em;}
+    .content-rub p {font-size: 1.3em;}
+    #content-rub9 p {font-size: 1.3em;}
+    
+    #content-rub1 {top:35%;}
+    .content-rub {top:10%;}
+    #content-rub9 {top:20%;}
+
+}
+
+
+
+
+@media screen and (max-width:590px){
+    
+    footer .reseaux .icon-fontello:before{font-size: 6em;}
+    
+    .content-rub {top:8%;}
+    #content-rub9 {top:18%;}
+
+}
+
+
+@media screen and (max-width:560px){
+
+    footer .reseaux .icon-fontello:before{font-size: 5em;}
+
+}
+
+@media screen and (max-width:480px){
+ 
+    
+    footer .reseaux .icon-fontello:before{font-size: 4.5em;}
+    
+    #content-rub1 p {font-size: 1.3em;}
+    .content-rub p {font-size: 1.3em;}
+    #content-rub9 p {font-size: 1.3em;}
+    
+    .content-rub {top:8%;}
+    #content-rub9 {top:18%;}
+
+
+}
+
+@media screen and (max-width:400px){
+    
+    .reseaux h3{font-size: 1.4em;}
+    .reseaux h2 {font-size: 2.6em; margin-bottom: 1em;}
+    
+    .content-rub {top:30%;}
+    #content-rub9 {top:30%;}
+    #content-rub1 {top:35%;}
+    
+
+}
+
+@media screen and (max-width:360px){
+    
+    
+    .reseaux {margin: 70px auto 100px auto;}
+    footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
+    .reseaux h3 {margin-top: 0.5em;}
+    
+    
+#baobabis button{
+    width:25px;
+    height:25px;}
+    
+}
+
+@media screen and (max-width:320px){
+    
+    .content-rub {top:11%;}
+    #content-rub9 {top:25%;}
+    #content-rub1 {top:30%;}
+
+
+}
+

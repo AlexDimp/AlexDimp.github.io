@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg')format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+footer .reseaux .icon-fontello:before{font-size: 7em;}
+
+#content {padding-top:220px;opacity: 0;}
+
+.trois-points {margin: 5em auto 5em auto;cursor: pointer;
+    -webkit-transition:all 0.1s;
+    -moz-transition:all 0.1s;
+    -o-transition:all 0.1s;
+    -ms-transition:all 0.1s;
+    transition:all 0.1s;}
+
+.trois-points span {font-size: 1.5em;font-family:'Lato', sans-serif;color: rgb(123,36,129);}
+
+
+.trois-points:hover { 
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.1s linear;
+    -o-transition:all 0.1s linear;
+    -ms-transition:all 0.1s linear;
+    transition:all 0.1s linear;
+    
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+
+#hide-section-1 {display: none;}
+#hide-section-2 {display: none;}
+
+
+
+@media screen and (max-width:940px){
+    
+    .description:first-child {margin-top: 10em;}
+
+}
+
+@media screen and (max-width:590px){
+    
+    footer .reseaux .icon-fontello:before{font-size: 6em;}
+
+}
+
+
+@media screen and (max-width:560px){
+
+    footer .reseaux .icon-fontello:before{font-size: 5em;}
+
+}
+
+@media screen and (max-width:480px){
+ 
+    
+    footer .reseaux .icon-fontello:before{font-size: 4.5em;}
+
+
+}
+
+@media screen and (max-width:400px){
+    
+    .reseaux h3{font-size: 1.4em;}
+    .reseaux h2 {font-size: 2.6em; margin-bottom: 1em;}
+    
+
+}
+
+@media screen and (max-width:360px){
+    
+    
+    .reseaux {margin: 70px auto 100px auto;}
+    footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
+    .reseaux h3 {margin-top: 0.5em;}
+    
+}
+
