@@ -83,7 +83,7 @@ footer .reseaux .icon-fontello:before{
 .icon-mail-circled:before { content: '\e803'; } /* '' */
 
 
-body {font-size:0.75em;overflow-x: hidden;} /*12px;*/
+body {font-size:0.75em;} /*12px;*/
 
 a {text-decoration: none;}
 a:link {text-decoration: none;}
@@ -742,7 +742,7 @@ transition:all 0.3s;}
 @media screen and (max-width:320px){
     
     #chapeau {top:35%;}
-    #chapeau h2 {font-size: 2.2em;}
+    #chapeau h2 {font-size: 1.7em;}
     
     h1 {font-size: 0.7em;}
     legend {font-size: 1.9em;}
