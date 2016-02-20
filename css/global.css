@@ -143,7 +143,7 @@ transition: all 0.3s ease;
 
 #slideshow {position: relative;
     display: block;
-    background: transparent url("../images/background-plante.jpg")no-repeat center center fixed;
+    background: transparent url("../images/background-plante.jpg")no-repeat center center;
     background-size: cover;
     height: 100vh;
     opacity:0;
