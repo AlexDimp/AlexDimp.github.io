@@ -683,6 +683,8 @@ transition:all 0.3s;}
     
     html{overflow: visible;}
     body {overflow: visible;}
+    
+    header {position: absolute;}
 
 
 }
@@ -717,6 +719,7 @@ transition:all 0.3s;}
     
     #content-want-again h2 {font-size: 2.2em;}
     .reseaux h2 {font-size: 2.2em;}
+    
 
 
 }
