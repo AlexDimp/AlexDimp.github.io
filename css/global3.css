@@ -81,10 +81,17 @@ user agent stylesheet* {
         transition: all 0.3s;}
 
     #baobabis button{
-        display: inline-block;
+        display: inline-block;;
         width:30px;
         height:30px;
-        border-radius: 15px;
+        border:solid 1.5px rgb(123,36,129);
+        border-radius:15px;
+        background:white;
+        color:rgb(123,36,129);
+        font-size:1em;
+        font-weight: bold;
+        cursor:pointer;
+        outline-style:none;
         margin-right: 0.3em;
         margin-top: 0em;}
 
