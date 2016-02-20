@@ -704,6 +704,8 @@ transition:all 0.3s;}
     #texte-intro {display: none;} 
     #texte-intro-responsive {display: block;}
     footer .reseaux .icon-fontello:before{font-size: 5em;}
+    
+    #slideshow {background: transparent url("../images/background-plante2.jpg");background-size: cover;}
 
 }
 
@@ -747,7 +749,7 @@ transition:all 0.3s;}
 
 @media screen and (max-width:320px){
     
-    #chapeau {top:35%;}
+    #chapeau {top:35%;position: absolute;}
     #chapeau h2 {font-size: 1.7em;}
     
     h1 {font-size: 0.7em;}
