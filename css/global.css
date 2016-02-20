@@ -143,13 +143,13 @@ transition: all 0.3s ease;
 
 #slideshow {position: relative;
     display: block;
-    background: transparent url("../images/background-plante.jpg")no-repeat center center;
+    background: transparent url("../images/background-plante.jpg")no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     opacity:0;
 }
 
-#chapeau {width:100%;position: absolute;margin: 0 auto;top:50%;cursor: pointer;}
+#chapeau {width:100%;position: fixed;margin: 0 auto;top:50%;cursor: pointer;}
 #chapeau #chapeau-responsive {display: none;width: 80%;margin: 0 auto;text-align: center;line-height: 4em;}
 #chapeau #chapeau-responsive h2 em {font-size: 0.8em;}
 #chapeau ul {position: relative;width: 1000px; margin: 0 auto;display: block;}
@@ -680,6 +680,9 @@ transition:all 0.3s;}
     #texte-intro {font-size: 2em;}
     /*#article6 .photo-article {width: 300px;}*/
     .description .auteur {margin-bottom: 0.6em;}
+    
+    html{overflow: visible;}
+    body {overflow: visible;}
 
 
 }
@@ -747,6 +750,8 @@ transition:all 0.3s;}
     h1 {font-size: 0.7em;}
     legend {font-size: 1.9em;}
     #content-want-again h2 {font-size: 1.8em;}
+    html{overflow: visible;}
+    body {overflow: visible;}
 }
 
 
