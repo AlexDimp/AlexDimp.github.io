@@ -149,7 +149,7 @@ transition: all 0.3s ease;
     opacity:0;
 }
 
-#chapeau {width:100%;position: fixed;margin: 0 auto;top:50%;cursor: pointer;}
+#chapeau {width:100%;position: absolute;margin: 0 auto;top:50%;cursor: pointer;}
 #chapeau #chapeau-responsive {display: none;width: 80%;margin: 0 auto;text-align: center;line-height: 4em;}
 #chapeau #chapeau-responsive h2 em {font-size: 0.8em;}
 #chapeau ul {position: relative;width: 1000px; margin: 0 auto;display: block;}
