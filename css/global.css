@@ -571,7 +571,7 @@ transition:all 0.3s;}
 
 
 .realisation {position: relative;margin: 0em auto 2em auto;text-align: center;border-top: 1px solid rgb(123,36,129);}
-.realisation h4 {font-size: 1.1em;margin-top: 1em;font-weight:300;} 
+.realisation h4 {font-size: 1.1em;margin-top: 1em;} 
 .realisation #IngridJacquet {color:rgb(123,36,129);border-bottom: 1px solid white;font-weight:400;
 -webkit-transition:all 0.2s;
 -moz-transition:all 0.2s;
@@ -768,6 +768,7 @@ transition:all 0.2s;}
     .button-article {display: block;}
     
     .realisation h4{font-size: 0.9em;} 
+    .realisation h4 {font-weight: 300;} 
     
 
 }
