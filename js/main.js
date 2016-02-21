@@ -302,16 +302,8 @@ $(function(){
         if ($(window).scrollTop()>4200){
             
                $('#lisa').css('transform','scale(1)');
-        }
+            }
         
-        
-        
-/// GESTION DES BOUTONS BAOBAB AU SCROLL
-
-        if($(window).scrollTop()<6400){$('#baobabis').css('top','80%');}
-        
-        if($(window).scrollTop()>6400){$('#baobabis').css('top','30%');}
-   
         
         });
     
@@ -443,7 +435,7 @@ $(function(){
         }else {
     }
         
-        if ( $w.scrollTop() > targetOffset9 ) {   
+        if ( $w.scrollTop() > targetOffset9 ) {
             $('.baobab #L').css({'background':'white','color':'rgb(123,36,129)'});
             $('.baobab #E').css({'background':'white','color':'rgb(123,36,129)'});
             $('.baobab #trois').css({'background':'white','color':'rgb(123,36,129)'});
@@ -453,8 +445,11 @@ $(function(){
             $('.baobab #Bbis').css({'background':'white','color':'rgb(123,36,129)'});
             $('.baobab #Abis').css({'background':'white','color':'rgb(123,36,129)'});
             $('.baobab #Bter').css({'background':'rgb(123,36,129)','color':'white'});
+            $('#baobabis').css('opacity','0');
         }else {
+            $('#baobabis').css('opacity','1');
     }
+    
     
 });
     
