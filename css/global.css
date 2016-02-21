@@ -671,6 +671,7 @@ transition:all 0.3s;}
 @media screen and (max-width:850px){
 
     footer .reseaux .icon-fontello:before{font-size: 9em;}
+    footer .reseaux .icon-youtube:before{font-size: 9em;}
     #chapeau h2 {font-size: 2.5em;text-align: center;margin: 0 auto;}
     #chapeau ul {position: relative;width: 725px;}
 }
@@ -678,6 +679,7 @@ transition:all 0.3s;}
 @media screen and (max-width:768px){
 
     footer .reseaux .icon-fontello:before{font-size: 7em;}
+    footer .reseaux .icon-youtube:before{font-size: 7em;}
 }
 
 
@@ -720,6 +722,7 @@ transition:all 0.3s;}
     .description .auteur {margin-bottom: 1.5em;width: 80px;height: 80px;font-size: 1.1em;}
     
     footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-youtube:before{font-size: 6em;}
 
 
 }
@@ -730,6 +733,7 @@ transition:all 0.3s;}
     #texte-intro {display: none;} 
     #texte-intro-responsive {display: block;}
     footer .reseaux .icon-fontello:before{font-size: 5em;}
+    footer .reseaux .icon-youtube:before{font-size: 5em;}
     
     #slideshow {background: transparent url("../images/background-plante2.jpg");background-size: cover;}
 
@@ -744,6 +748,7 @@ transition:all 0.3s;}
     svg {display: none;}
     
     footer .reseaux .icon-fontello:before{font-size: 4.5em;}
+    footer .reseaux .icon-youtube:before{font-size: 4.5em;}
     
     #content-want-again h2 {font-size: 2.2em;}
     .reseaux h2 {font-size: 2.2em;}
@@ -772,7 +777,9 @@ transition:all 0.3s;}
     
     .reseaux {margin: 70px auto 100px auto;}
     footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-youtube:before{font-size: 6em;}
     footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
+    footer .reseaux .icon-youtube{display: block;margin-top: 2em;}
     .reseaux h3 {margin-top: 0.5em;}
     .button-newsletter {display: block;margin:1em auto 0 auto;width: 130px;}
     .button-article {display: block;}

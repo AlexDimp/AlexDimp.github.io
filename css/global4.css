@@ -71,6 +71,7 @@
 
 
 footer .reseaux .icon-fontello:before{font-size: 7em;}
+footer .reseaux .icon-youtube:before{font-size: 7em;}
 
 
 
@@ -132,6 +133,7 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
 @media screen and (max-width:590px){
     
     footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-youtube:before{font-size: 6em;}
     
     #introduction-team-directory{background: transparent url("../images/background-white.jpg")no-repeat center center;}
     #h2-introduction {position: absolute;}
@@ -142,6 +144,7 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
 @media screen and (max-width:560px){
 
     footer .reseaux .icon-fontello:before{font-size: 5em;}
+    footer .reseaux .icon-youtube:before{font-size: 5em;}
 
 }
 
@@ -157,6 +160,7 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
     #introduction-auteurs-participatifs p{font-size: 1.3em;}
     
     footer .reseaux .icon-fontello:before{font-size: 4.5em;}
+    footer .reseaux .icon-youtube:before{font-size: 4.5em;}
 
 }
 
@@ -173,7 +177,9 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
     
     .reseaux {margin: 70px auto 100px auto;}
     footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-youtube:before{font-size: 6em;}
     footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
+    footer .reseaux .icon-youtube{display: block;margin-top: 2em;}
     .reseaux h3 {margin-top: 0.5em;}
     
 }

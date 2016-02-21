@@ -10,6 +10,7 @@
 }
 
 footer .reseaux .icon-fontello:before{font-size: 7em;}
+footer .reseaux .icon-youtube:before{font-size: 7em;}
 
 #content {padding-top:220px;opacity: 0;}
 
@@ -51,6 +52,7 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
 @media screen and (max-width:590px){
     
     footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-youtube:before{font-size: 7em;}
 
 }
 
@@ -58,6 +60,7 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
 @media screen and (max-width:560px){
 
     footer .reseaux .icon-fontello:before{font-size: 5em;}
+    footer .reseaux .icon-youtube:before{font-size: 5em;}
 
 }
 
@@ -65,6 +68,7 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
  
     
     footer .reseaux .icon-fontello:before{font-size: 4.5em;}
+    footer .reseaux .icon-youtube:before{font-size: 4.5em;}
 
 
 }
@@ -82,7 +86,9 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
     
     .reseaux {margin: 70px auto 100px auto;}
     footer .reseaux .icon-fontello:before{font-size: 6em;}
+    footer .reseaux .icon-youtube:before{font-size: 6em;}
     footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
+    footer .reseaux .icon-youtube{display: block;margin-top: 2em;}
     .reseaux h3 {margin-top: 0.5em;}
     
     #content {padding-top:160px;}
