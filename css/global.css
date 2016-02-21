@@ -756,6 +756,8 @@ transition:all 0.3s;}
 
 @media screen and (max-width:320px){
     
+    #logo {width: 130px;}
+    
     #chapeau h2 {font-size: 1.7em;}
     
     #mc-embedded-subscribe-form {margin: 2em auto 0 auto;}
