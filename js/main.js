@@ -231,139 +231,78 @@ $(function(){
         if ($(window).scrollTop()>400){
             
                $('#biography-alexandra').stop().animate({'opacity':1},100);
-                 
-           }else{
-               
-               $('#biography-alexandra').stop().animate({'opacity':0},100);}
+        }
         
         if ($(window).scrollTop()>470){
                $('#alexandra').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#alexandra').css('transform','scale(0)');  
+        }
+        
+        
+        if ($(window).scrollTop()>1100){
+               $('#biography-justine').stop().animate({'opacity':1},100);
            }
         
-        
-        
-           if ($(window).scrollTop()>1100){
-               $('#biography-justine').stop().animate({'opacity':1},100);
-               
-            }else{
-               $('#biography-justine').stop().animate({'opacity':0},100);   
-            }
-        
+    
         if ($(window).scrollTop()>1170){
                $('#justine').css('transform','scale(1)');
-
-            }else{
-                
-               $('#justine').css('transform','scale(0)');
-                 
-            }
+        }
         
         
         
-            if ($(window).scrollTop()>1630){
+        if ($(window).scrollTop()>1630){
                $('#biography-ingrid').stop().animate({'opacity':1},100);
-                
-           }else{
-               $('#biography-ingrid').stop().animate({'opacity':0},100);
-                 
-          }
+            }
         
          if ($(window).scrollTop()>1700){
                $('#ingrid').css('transform','scale(1)');
-           }else{
-                
-               $('#ingrid').css('transform','scale(0)');    
-          }
+         }
         
         
         
         if ($(window).scrollTop()>2100){
             
                $('#introduction-auteurs-participatifs').stop().animate({'opacity':1},100);
-            
-           }else{
-                
-               $('#introduction-auteurs-participatifs').stop().animate({'opacity':0},100);
-                 
-          }
+        }
         
         
         
         if ($(window).scrollTop()>2750){
             
                $('#aurelien').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#aurelien').css('transform','scale(0)');
-                 
-          }
+        }
+        
         
         if ($(window).scrollTop()>2800){
             
                $('#aida').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#aida').css('transform','scale(0)');
-                 
-          }
+        }
         
         
         if ($(window).scrollTop()>3250){
             
                $('#nicolas').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#nicolas').css('transform','scale(0)');
-                 
-          }
+        }
         
         
         if ($(window).scrollTop()>3300){
             
                $('#noemie').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#noemie').css('transform','scale(0)');
-                 
-          }
+        }
         
         if ($(window).scrollTop()>3750){
             
                $('#etienne').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#etienne').css('transform','scale(0)');
-                 
-          }
+        }
         
         if ($(window).scrollTop()>3800){
             
                $('#gri').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#gri').css('transform','scale(0)');
-                 
-          }
+        }
         
         if ($(window).scrollTop()>4200){
             
                $('#lisa').css('transform','scale(1)');
-                 
-           }else{
-                
-               $('#lisa').css('transform','scale(0)');
-                 
-          }
+        }
         
         
         
@@ -389,7 +328,7 @@ $(function(){
     
     /// GESTION DES BOUTONS BAOBAB AU SCROLL
     
-    var targetOffset = $("#rub1").offset().top;
+    var targetOffset1 = $("#rub1").offset().top;
     var targetOffset2 = $("#rub2").offset().top;
     var targetOffset3 = $("#rub3").offset().top;
     var targetOffset4 = $("#rub4").offset().top;
@@ -400,7 +339,7 @@ $(function(){
     var targetOffset9 = $("#rub9").offset().top;
 
     var $w = $(window).scroll(function(){
-        if ( $w.scrollTop() > targetOffset ) {   
+        if ( $w.scrollTop() > targetOffset1 ) {   
             $('.baobab #L').css({'background':'rgb(123,36,129)','color':'white'});
             $('.baobab #E').css({'background':'white','color':'rgb(123,36,129)'});
             $('.baobab #trois').css({'background':'white','color':'rgb(123,36,129)'});
