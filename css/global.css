@@ -758,6 +758,7 @@ transition:all 0.3s;}
     
     #logo {width: 130px;}
     
+    #chapeau {top:35%;}
     #chapeau h2 {font-size: 1.7em;}
     
     #mc-embedded-subscribe-form {margin: 2em auto 0 auto;}
