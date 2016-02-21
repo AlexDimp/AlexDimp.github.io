@@ -89,3 +89,10 @@ footer .reseaux .icon-fontello:before{font-size: 7em;}
     
 }
 
+@media screen and (max-width:320px){
+    
+    
+    #content {padding-top:120px;}
+    
+}
+
