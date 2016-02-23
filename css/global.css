@@ -45,7 +45,7 @@ label {font-size: 1.7em;display: block;text-align: left;margin-top:1.5em;}
 -ms-transition:all 0.1s;
 transition:all 0.1s; }
 
-#button-send-1, #button-send:hover {
+#button-send-1:hover, #button-send:hover {
   opacity: 0.9;
   -webkit-transition:all 0.2s;
   -moz-transition:all 0.2s;
