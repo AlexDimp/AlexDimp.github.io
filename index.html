@@ -134,7 +134,7 @@
                         </div>
     
                         <div class="clear" id="button-send" style="display: none;">
-                            <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button">
+                            <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button mc-hidden-button">
                         </div>
                         
                     </fieldset>
@@ -357,6 +357,9 @@ $.extend($.validator.messages, {
 });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
        
         <script src="js/main.js"></script>
+        <script>
+          $('input#mc-embedded-subscribe.button').addClass('mc-hidden-button');
+        </script>
 
     </body>
 </html>
