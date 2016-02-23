@@ -54,7 +54,7 @@ transition:all 0.1s; }
   transition:all 0.2s;
 }
 
-.mc-hidden-button {
+#mc-embedded-subscribe.mc-hidden-button {
   width: 100%;
   height: 100%;
   margin: 0;
