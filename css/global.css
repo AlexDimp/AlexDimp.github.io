@@ -38,14 +38,14 @@ fieldset {margin: 0 auto;width: 70%;}
 #field-group-name {display: none;}
 label {font-size: 1.7em;display: block;text-align: left;margin-top:1.5em;}
 
-#button-send {width: 150px; height: 50px; background: url(../images/button-envoyer.png)no-repeat center;border: none;margin: 3em auto 0 auto;outline-style: none;cursor: pointer;opacity: 1;
+#button-send-1, #button-send {width: 150px; height: 50px; background: url(../images/button-envoyer.png)no-repeat center;border: none;margin: 3em auto 0 auto;outline-style: none;cursor: pointer;opacity: 1;
 -webkit-transition:all 0.1s;
 -moz-transition:all 0.1s;
 -o-transition:all 0.1s;
 -ms-transition:all 0.1s;
 transition:all 0.1s; }
 
-#button-send:hover {
+#button-send-1, #button-send:hover {
 opacity: 0.9;
 -webkit-transition:all 0.2s;
 -moz-transition:all 0.2s;
@@ -87,7 +87,7 @@ body {font-size:0.75em;} /*12px;*/
 
 a {text-decoration: none;}
 a:link {text-decoration: none;}
-a:visited {text-decoration: none;} 
+a:visited {text-decoration: none;}
 
 
 #wrapper {width: 100%;font-family: 'Signika', sans-serif;}
@@ -160,7 +160,7 @@ transition: all 0.3s ease;
 #chapeau h2 {color: white;font-size: 3.5em;text-align: center;margin-top:2em;opacity: 0;}
 
 #chapeau ul:hover .viber {
-    
+
     -webkit-animation-name:moveIt4;
     -webkit-animation-duration:0.1s;
     -webkit-animation-timing-function:ease;
@@ -189,7 +189,7 @@ transition: all 0.3s ease;
 }
 
 @-webkit-keyframes moveIt4{
-    
+
     0%{left: 0px;top: 0px;}
     25%{left:2px;top: 1px;}
     50%{left: 1px;top: 2px;}
@@ -200,7 +200,7 @@ transition: all 0.3s ease;
 }
 
 @-moz-keyframes moveIt4{
-    
+
     0%{left: 0px;top: 0px;}
     25%{left:2px;top: 1px;}
     50%{left: 1px;top: 2px;}
@@ -211,7 +211,7 @@ transition: all 0.3s ease;
 }
 
 @-o-keyframes moveIt4{
-    
+
     0%{left: 0px;top: 0px;}
     25%{left:2px;top: 1px;}
     50%{left: 1px;top: 2px;}
@@ -222,7 +222,7 @@ transition: all 0.3s ease;
 }
 
 @-ms-keyframes moveIt4{
-    
+
     0%{left: 0px;top: 0px;}
     25%{left:2px;top: 1px;}
     50%{left: 1px;top: 2px;}
@@ -271,11 +271,11 @@ transition: all 0.3s ease;
 }
 
 @-webkit-keyframes moveIt1{
-    
+
     from{
         bottom: 3em;
     }
-    
+
     to{
         bottom: 4em;
     }
@@ -283,11 +283,11 @@ transition: all 0.3s ease;
 }
 
 @-moz-keyframes moveIt1{
-    
+
     from{
         bottom: 3em;
     }
-    
+
     to{
         bottom: 4em;
     }
@@ -295,11 +295,11 @@ transition: all 0.3s ease;
 }
 
 @-o-keyframes moveIt1{
-    
+
     from{
         bottom: 3em;
     }
-    
+
     to{
         bottom: 4em;
     }
@@ -307,11 +307,11 @@ transition: all 0.3s ease;
 }
 
 @-ms-keyframes moveIt1{
-    
+
     from{
         bottom: 3em;
     }
-    
+
     to{
         bottom: 4em;
     }
@@ -405,13 +405,13 @@ article .photo-article {
     transition:all 0.3s;
 }
 
-article .photo-article:hover { 
+article .photo-article:hover {
     -webkit-transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
     -o-transition:all 0.3s linear;
     -ms-transition:all 0.3s linear;
     transition:all 0.3s linear;
-    
+
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -571,7 +571,7 @@ transition:all 0.3s;}
 
 
 .realisation {position: relative;margin: 0em auto 2em auto;text-align: center;border-top: 1px solid rgb(123,36,129);}
-.realisation h4 {font-size: 1.1em;margin-top: 1em;} 
+.realisation h4 {font-size: 1.1em;margin-top: 1em;}
 .realisation #IngridJacquet {color:rgb(123,36,129);border-bottom: 1px solid white;font-weight:400;
 -webkit-transition:all 0.2s;
 -moz-transition:all 0.2s;
@@ -592,21 +592,21 @@ transition:all 0.2s;}
 
     .description h2 {font-size: 2.6em;}
     .description p {font-size: 1.5em;}
-    
+
 }
 
 @media screen and (max-width:1280px){
-    
+
     /*#main-nav ul li {font-size: 1.6em;}*/
-    
+
     legend {font-size: 2.1em;}
-    
+
     #chapeau ul {width: 860px;}
     #chapeau h2 {font-size: 3em;}
-    
+
     .description h2 {font-size: 2.4em;}
     .description p {font-size: 1.4em;}
-    
+
     .description .user {display: block; width:55px;}
 
     .button-all a span {display: block;padding:15px 30px;}
@@ -614,45 +614,45 @@ transition:all 0.2s;}
     .button-article a{font-size: 1.1em;}
     .button-article a span {padding:8px 16px;}
     .button-article a::before {padding: 8px 16px;}
-    
+
     .button-newsletter span {padding: 9.4px 16px;font-size: 1.1em;}
-    
-    
-    
+
+
+
 
 }
 
 @media screen and (max-width:1080px){
-    
+
     .description .auteur span {font-size: 1.2em;}
     .description .user {width: 40px;}
-    
+
     .description h2 {font-size: 2.2em;}
     .description p {font-size: 1.3em;}
 
 }
 
 @media screen and (max-width:1024px){
-    
+
     .description h2 {font-size: 1.8em;}
 
     .button-all a span {display: block;padding:10px 20px;}
     .button-all a::before {padding: 10px 20px;}
-    
+
 
 }
 
 @media screen and (max-width:940px){
-    
+
     #baseline {margin: 3.5em auto 2.5em auto;}
     #aside-page1 {margin: -5em auto 0 auto}
-    
+
     article {display: block; width:100%;margin-top: 2em;}
     .description:first-child {margin-top: 0em;}
     .description {display: block; width: 100%;margin-top: 6em;}
     .description h2 {text-align: center;width: 100%;margin: 0.2em auto 0 auto;}
     .description p {text-align: center; width: 100%;margin-top: 2em;}
-    
+
     #all-articles {padding: 3em 0;width: 80%;margin-top: 8em;}
 
 }
@@ -673,42 +673,42 @@ transition:all 0.2s;}
 
 
 @media screen and (max-width:700px){
-    
+
     #chapeau ul {display: none;}
     #chapeau #chapeau-responsive {display: block;}
-    
+
     #aside-page1 {margin: -10em auto 0 auto}
     #burger {display: block; }
     #content-burger {display: block;opacity: 0;}
-    
+
     #main-nav {display: none;}
     /*#nav-bis {display: block;}*/
-    
+
     #content-want-again {width: 80%;}
     #content-want-again p {font-size: 1.4em;}
 
-    
+
 }
 
 @media screen and (max-width:630px){
-    
+
     #mc-embedded-subscribe-form {width: 90%;}
     #texte-intro {font-size: 2em;}
     /*#article6 .photo-article {width: 300px;}*/
     .description .auteur {margin-bottom: 0.6em;}
-    
+
     html{overflow: visible;}
     body {overflow: visible;}
-    
+
     header {position: absolute;}
 
 
 }
 
 @media screen and (max-width:590px){
-    
+
     .description .auteur {margin-bottom: 1.5em;width: 80px;height: 80px;font-size: 1.1em;}
-    
+
     footer .reseaux .icon-fontello:before{font-size: 6em;}
 
 
@@ -716,28 +716,28 @@ transition:all 0.2s;}
 
 @media screen and (max-width:560px){
 
-    
-    #texte-intro {display: none;} 
+
+    #texte-intro {display: none;}
     #texte-intro-responsive {display: block;}
     footer .reseaux .icon-fontello:before{font-size: 5em;}
-    
+
     #slideshow {background: transparent url("../images/background-plante2.jpg");background-size: cover;}
 
 }
 
 @media screen and (max-width:480px){
-    
+
     h1 {font-size: 0.8em;}
     .description h2 {margin-top: 0em;}
-    
+
     #baseline {margin: 2.5em auto 1.8em auto;}
     svg {display: none;}
-    
+
     footer .reseaux .icon-fontello:before{font-size: 4.5em;}
-    
+
     #content-want-again h2 {font-size: 2.2em;}
     .reseaux h2 {font-size: 2.2em;}
-    
+
 
 
 }
@@ -745,45 +745,45 @@ transition:all 0.2s;}
 @media screen and (max-width:414px){#chapeau {top:38%;position: absolute;}}
 
 @media screen and (max-width:400px){
-    
+
     .reseaux h3{font-size: 1.4em;}
     .reseaux h2 {margin-bottom: 1em;}
-    
+
     #mc-embedded-subscribe-form {margin: 4em auto 0 auto;}
     #mce-EMAIL,#mce-FNAME {margin-top: 1em;}
     label {margin-top:0.5em;}
-    
+
     }
 
 
 
 @media screen and (max-width:360px){
-    
-    
+
+
     .reseaux {margin: 70px auto 100px auto;}
     footer .reseaux .icon-fontello:before{font-size: 6em;}
     footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
     .reseaux h3 {margin-top: 0.5em;}
     .button-newsletter {display: block;margin:1em auto 0 auto;width: 130px;}
     .button-article {display: block;}
-    
-    .realisation h4{font-size: 0.9em;} 
-    .realisation h4 {font-weight: 300;} 
-    
+
+    .realisation h4{font-size: 0.9em;}
+    .realisation h4 {font-weight: 300;}
+
 
 }
 
 @media screen and (max-width:320px){
-    
+
     #logo {width: 130px;}
-    
+
     #chapeau {top:35%;}
     #chapeau h2 {font-size: 1.7em;}
-    
+
     #mc-embedded-subscribe-form {margin: 2em auto 0 auto;}
     #mce-EMAIL,#mce-FNAME {margin-top: 1em;}
     label {margin-top:0.5em;}
-    
+
     h1 {font-size: 0.7em;}
     legend {font-size: 1.9em;}
     #content-want-again h2 {font-size: 1.8em;}

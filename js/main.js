@@ -12,11 +12,9 @@ $(function(){
 
     //GESTION DU CLIC SUR "JE LE VEUX"
 
-    $('#button-send').on('click',function(e){
-        if ($('#mce-FNAME').val() === "") {
-          e.stopPropagation();
-        }
-
+    $('#button-send-1').on('click',function(e){
+        $('#button-send-1').hide();
+        $('#button-send').show();
         $('#field-group-name').fadeIn('slow');
         $('#field-group-mail').css('display','none');
         $('#legend2').fadeIn('slow');
