@@ -393,7 +393,7 @@ article h2 {font-size: 5em;color: white;}
 .description .auteur span {font-size: 1.3em;margin:0 auto;display: block;text-align: center;}
 .description .user {display: block; width:65px; margin:0.8em auto 0.5em auto;border:solid 1px rgb(123,36,129);}
 
-.description {position: relative;width: 55%;display: inline-block;vertical-align: middle;margin-top:6em;margin-right:4%;}
+.description {position: relative;width: 55%;display: inline-block;vertical-align: middle;margin-right:4%;}
 .description h2 {display: inline-block; vertical-align: super;text-align: left; width: 75%;margin: 0 auto 1em auto; color:rgb(123,36,129);font-size: 3em;}
 .description p {text-align: left; width: 86%;margin: 0 auto; font-family: 'Lato', sans-serif;color:black;font-size: 1.8em;line-height: 1.5em;}
 
