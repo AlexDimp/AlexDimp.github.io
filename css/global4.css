@@ -13,7 +13,7 @@
 .biography h2 {font-size: 2.6em;color: rgb(123,36,129);}
 .biography h3 {font-size: 1.8em;color: rgb(123,36,129); margin-top: 0.8em;margin-bottom: 1em;line-height:1.2; }
 .biography p {text-align: left; font-size: 1.6em;line-height: 1.5;font-weight: 200;}
-.biography .lien-network {position: relative;width: 35px;display: inline-block;vertical-align: middle;color: rgb(123,36,129); font-size: 0.9em;margin-top: 1.5em;
+.biography .lien-network {position: relative;width: 35px;display: inline-block;vertical-align: middle;color: rgb(123,36,129); font-size: 0.9em;margin-top: 1.5em;margin-right: 1em;
     -webkit-transition:all 0.2s;
     -moz-transition:all 0.2s;
     -o-transition:all 0.2s;
@@ -177,9 +177,7 @@ footer .reseaux .icon-youtube:before{font-size: 7em;}
     
     .reseaux {margin: 70px auto 100px auto;}
     footer .reseaux .icon-fontello:before{font-size: 6em;}
-    footer .reseaux .icon-youtube:before{font-size: 6em;}
     footer .reseaux .icon-fontello{display: block;margin-top: 2em;}
-    footer .reseaux .icon-youtube{display: block;margin-top: 2em;}
     .reseaux h3 {margin-top: 0.5em;}
     
 }

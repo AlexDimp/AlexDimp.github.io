@@ -66,6 +66,7 @@ $(function(){
 
 
     if($(window).width()<941){
+            $('#article19 .photo-article').attr('src','images/viande(responsive).jpg');
             $('#article18 .photo-article').attr('src','images/climat(responsive).jpg');
             $('#article17 .photo-article').attr('src','images/moyen-orient(responsive).jpg');
             $('#article16 .photo-article').attr('src','images/terrorisme(responsive).jpg');
@@ -88,6 +89,7 @@ $(function(){
             }
 
         if($(window).width()>941){
+            $('#article19 .photo-article').attr('src','images/viande(600x700).jpg');
             $('#article18 .photo-article').attr('src','images/climat(600x700).jpg');
             $('#article17 .photo-article').attr('src','images/moyen-orient(600x700).jpg');
             $('#article16 .photo-article').attr('src','images/terrorisme(600x700).jpg');
@@ -132,6 +134,7 @@ $(function(){
     $(window).resize(function(){
 
         if($(window).width()<941){
+            $('#article19 .photo-article').attr('src','images/viande(responsive).jpg');
             $('#article18 .photo-article').attr('src','images/climat(responsive).jpg');
             $('#article17 .photo-article').attr('src','images/moyen-orient(responsive).jpg');
             $('#article16 .photo-article').attr('src','images/terrorisme(responsive).jpg');
@@ -154,6 +157,7 @@ $(function(){
             }
 
         if($(window).width()>941){
+            $('#article19 .photo-article').attr('src','images/viande(600x700).jpg');
             $('#article18 .photo-article').attr('src','images/climat(600x700).jpg');
             $('#article17 .photo-article').attr('src','images/moyen-orient(600x700).jpg');
             $('#article16 .photo-article').attr('src','images/terrorisme(600x700).jpg');
