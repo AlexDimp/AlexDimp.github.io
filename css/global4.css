@@ -14,19 +14,19 @@
 .biography h3 {font-size: 1.8em;color: rgb(123,36,129); margin-top: 0.8em;margin-bottom: 1em;line-height:1.2; }
 .biography p {text-align: left; font-size: 1.6em;line-height: 1.5;font-weight: 200;}
 .biography .lien-network {position: relative;width: 35px;display: inline-block;vertical-align: middle;color: rgb(123,36,129); font-size: 0.9em;margin-top: 1.5em;margin-right: 1em;
-    -webkit-transition:all 0.2s;
-    -moz-transition:all 0.2s;
-    -o-transition:all 0.2s;
-    -ms-transition:all 0.2s;
-    transition:all 0.2s;}
+    -webkit-transition:all 0.1s;
+    -moz-transition:all 0.1s;
+    -o-transition:all 0.1s;
+    -ms-transition:all 0.1s;
+    transition:all 0.1s;}
 .biography .lien-network img {width: 100%;}
 
 .biography .lien-network:hover{ 
-    -webkit-transition:all 0.2s linear;
-    -moz-transition:all 0.2s linear;
-    -o-transition:all 0.2s linear;
-    -ms-transition:all 0.2s linear;
-    transition:all 0.2s linear;
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.1s linear;
+    -o-transition:all 0.1s linear;
+    -ms-transition:all 0.1s linear;
+    transition:all 0.1s linear;
     
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
