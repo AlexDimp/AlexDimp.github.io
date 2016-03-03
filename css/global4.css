@@ -135,7 +135,7 @@ footer .reseaux .icon-youtube:before{font-size: 7em;}
     footer .reseaux .icon-fontello:before{font-size: 6em;}
     footer .reseaux .icon-youtube:before{font-size: 6em;}
     
-    #introduction-team-directory{background: transparent url("../images/background-white.jpg")no-repeat center center;}
+    #introduction-team-directory{background: transparent url(../images/backgound-white.jpg)no-repeat center center;}
     #h2-introduction {position: absolute;}
 
 }
