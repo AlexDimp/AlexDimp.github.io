@@ -206,6 +206,20 @@ $(function () {
 
 
     $(window).scroll(function () {
+        
+        posScroll = $(document).scrollTop();
+        
+        if (posScroll >= 80)
+        $('.arrow-down').fadeOut('fast');
+	         else
+        $('.arrow-down').fadeIn('fast');
+
+        if(posScroll >= 200)
+        $('#chapeau').fadeOut('slow');
+	         else
+        $('#chapeau').fadeIn('slow');
+        
+        
         if ($(window).scrollTop() > 300) {
             $('header').slideUp('fast');
             $('#content-burger').stop().animate({'opacity': 1}, 100);
