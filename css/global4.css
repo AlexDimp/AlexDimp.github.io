@@ -1,24 +1,90 @@
-#content-auteurs {position: relative;display: block; background-color: white; width: 80%;margin: 0 auto;text-align: center;z-index: 9;}
+#content-auteurs {
+    position: relative;
+    display: block; 
+    background-color: white; 
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 9;}
 
-.content-avatar-biography {position: relative;display: block;width: 80%;margin: 10em auto;}
+.content-avatar-biography {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 10em auto;}
+
 .content-avatar-biography:first-child {margin: 5em auto;}
 .content-avatar-biography:nth-child(3) {margin: 10em auto 0 auto;}
 
-#introduction-team-directory{position: relative;display: block;background: transparent url("../images/background-white.jpg")no-repeat center center fixed;background-size: cover;height: 100vh;text-align: center;line-height: 1.3;font-weight: 200;opacity: 0;}
-#h2-introduction {position: fixed; display: block; width: 100%; margin: 0 auto;text-align: center;top:45%;}
-#introduction-team-directory p {position: relative;display:block;margin: 0 auto;text-align: center;font-size: 2em;width: 80%;}
+#introduction-team-directory{
+    position: relative;
+    display: block;
+    background: transparent url("../images/background-white.jpg")no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 200;
+    opacity: 0;}
+
+#h2-introduction {
+    position: fixed; 
+    display: block; 
+    width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+    top:45%;}
+
+#introduction-team-directory p {
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    width: 80%;}
+
 #introduction-team-directory p b{font-weight: 500;}
 
-.biography {position: relative;display: inline-block;vertical-align: middle;width: 40%;opacity: 0;}
-.biography h2 {font-size: 2.6em;color: rgb(123,36,129);}
-.biography h3 {font-size: 1.8em;color: rgb(123,36,129); margin-top: 0.8em;margin-bottom: 1em;line-height:1.2; }
-.biography p {text-align: left; font-size: 1.6em;line-height: 1.5;font-weight: 200;}
-.biography .lien-network {position: relative;width: 35px;display: inline-block;vertical-align: middle;color: rgb(123,36,129); font-size: 0.9em;margin-top: 1.5em;margin-right: 1em;
+.biography {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    opacity: 0;}
+
+.biography h2 {
+    font-size: 2.6em;
+    color: rgb(123,36,129);}
+
+.biography h3 {
+    font-size: 1.8em;
+    color: rgb(123,36,129); 
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    line-height:1.2; }
+
+.biography p {
+    text-align: left; 
+    font-size: 1.6em;
+    line-height: 1.5;
+    font-weight: 200;}
+
+.biography .lien-network {
+    position: relative;
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(123,36,129); 
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    
     -webkit-transition:all 0.1s;
     -moz-transition:all 0.1s;
     -o-transition:all 0.1s;
     -ms-transition:all 0.1s;
     transition:all 0.1s;}
+
 .biography .lien-network img {width: 100%;}
 
 .biography .lien-network:hover{ 
@@ -35,7 +101,14 @@
     transform: scale(1.2);
     }
 
-.biography #lien-portfolio {position: relative;display: block; color: rgb(123,36,129); font-size: 1em;font-weight: 400;text-align: center;
+.biography #lien-portfolio {
+    position: relative;
+    display: block; 
+    color: rgb(123,36,129); 
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    
     -webkit-transition:all 0.1s;
     -moz-transition:all 0.1s;
     -o-transition:all 0.1s;
@@ -58,16 +131,54 @@
     font-weight: 500;
     }
 
-.avatar {position: relative;display: inline-block;vertical-align: middle;width: 55%;transform: scale(0);transition: all 0.4s cubic-bezier(0.64, 0.57, 0.67, 1.53);}
+.avatar {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 55%;
+    
+    transform: scale(0);
+    transition: all 0.4s cubic-bezier(0.64, 0.57, 0.67, 1.53);}
+
 .avatar img {width: 100%;}
 
-#introduction-auteurs-participatifs {position: relative;display: block;width: 100%; margin: 20em auto 8em auto;text-align: center; opacity: 0;}
-#introduction-auteurs-participatifs p {position: relative;width: 80%;display: block; font-size: 2em;margin: 0 auto; text-align: center;line-height: 1.3;font-weight: 200;}
+#introduction-auteurs-participatifs {
+    position: relative;
+    display: block;
+    width: 100%; 
+    margin: 20em auto 8em auto;
+    text-align: center; 
+    opacity: 0;}
+
+#introduction-auteurs-participatifs p {
+    position: relative;
+    width: 80%;
+    display: block; 
+    font-size: 2em;
+    margin: 0 auto; 
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 200;}
+
 #introduction-auteurs-participatifs p b{font-weight: 500;}
 
-.avatar-participatif {position: relative;display: inline-block;vertical-align: middle;width: 40%;margin: 3em;transform: scale(0);transition: all 0.4s cubic-bezier(0.64, 0.57, 0.67, 1.53);}
+.avatar-participatif {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin: 3em;
+    
+    transform: scale(0);
+    transition: all 0.4s cubic-bezier(0.64, 0.57, 0.67, 1.53);}
+
 .avatar-participatif img {width: 100%;}
-.avatar-participatif span {font-size: 2em;color: rgb(123,36,129);margin:2em auto 0 auto;display: block;text-align: center;}
+.avatar-participatif span {
+    font-size: 2em;
+    color: rgb(123,36,129);
+    margin:2em auto 0 auto;
+    display: block;
+    text-align: center;}
 
 
 footer .reseaux .icon-fontello:before{font-size: 7em;}

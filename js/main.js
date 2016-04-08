@@ -346,117 +346,54 @@ $(function () {
     var $w = $(window).scroll(function () {
         if ($w.scrollTop() > targetOffset1) {
             $('.baobab .L').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .E,.baobab .trois,.baobab .B,.baobab .A,.baobab .O,.baobab .Bbis,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset2) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .trois,.baobab .B,.baobab .A,.baobab .O,.baobab .Bbis,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .E').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset3) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .B,.baobab .A,.baobab .O,.baobab .Bbis,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .trois').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset4) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .trois,.baobab .A,.baobab .O,.baobab .Bbis,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .B').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset5) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .B,.baobab .trois,.baobab .O,.baobab .Bbis,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .A').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset6) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .B,.baobab .A,.baobab .trois,.baobab .Bbis,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .O').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset7) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .B,.baobab .A,.baobab .O,.baobab .trois,.baobab .Abis,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .Bbis').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset8) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .B,.baobab .A,.baobab .O,.baobab .Bbis,.baobab .trois,.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .Abis').css({'background': 'rgb(123,36,129)', 'color': 'white'});
-            $('.baobab .Bter').css({'background': 'white', 'color': 'rgb(123,36,129)'});
         } else {
         }
 
         if ($w.scrollTop() > targetOffset9) {
-            $('.baobab .L').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .E').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .B').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .A').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .O').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Bbis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
-            $('.baobab .Abis').css({'background': 'white', 'color': 'rgb(123,36,129)'});
+            $('.baobab .L,.baobab .E,.baobab .B,.baobab .A,.baobab .O,.baobab .Bbis,.baobab .Abis,.baobab .trois').css({'background': 'white', 'color': 'rgb(123,36,129)'});
             $('.baobab .Bter').css({'background': 'rgb(123,36,129)', 'color': 'white'});
             $('#baobabis').css('opacity', '0');
         } else {

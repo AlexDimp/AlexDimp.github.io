@@ -5,9 +5,18 @@ footer .reseaux .icon-youtube:before{font-size: 7em;}
 
 header{position: absolute;}
 
-#content {width: 960px; margin: 0 auto; position: relative;opacity: 0;text-align: center;display: block;}
+#content {
+    width: 960px; 
+    margin: 0 auto; 
+    position: relative;
+    opacity: 0;
+    text-align: center;
+    display: block;}
 
-.container {width: 960px;margin: 0 auto;position: absolute;}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: absolute;}
 
 svg {
     display: block;
