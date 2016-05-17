@@ -644,6 +644,8 @@ article h2 {
     font-size: 1.8em;
     line-height: 1.5em;}
 
+.description em {font-style: italic;font-size: 0.8em;}
+
 .retour-charriot {line-height: 2.3em}
 
 article img,.description img {
