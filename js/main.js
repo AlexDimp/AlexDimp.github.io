@@ -66,6 +66,9 @@ $(function () {
 
 
         if ($(window).width() < 941) {
+            $('#article23 .photo-article').attr('src', 'images/skyscraper(responsive).jpg');
+            $('#article22 .photo-article').attr('src', 'images/trois_siecles(responsive).jpg');
+            $('#article21 .photo-article').attr('src', 'images/consommation(responsive).jpg');
             $('#article20 .photo-article').attr('src', 'images/fruits-legumes(responsive).jpg');
             $('#article19 .photo-article').attr('src', 'images/viande(responsive).jpg');
             $('#article18 .photo-article').attr('src', 'images/climat(responsive).jpg');
@@ -90,6 +93,9 @@ $(function () {
         }
 
         if ($(window).width() > 941) {
+            $('#article23 .photo-article').attr('src', 'images/skyscraper(600x700).jpg');
+            $('#article22 .photo-article').attr('src', 'images/trois_siecles(700x600).jpg');
+            $('#article21 .photo-article').attr('src', 'images/consommation(600x700).jpg');
             $('#article20 .photo-article').attr('src', 'images/fruits-legumes(600x700).jpg');
             $('#article19 .photo-article').attr('src', 'images/viande(600x700).jpg');
             $('#article18 .photo-article').attr('src', 'images/climat(600x700).jpg');
@@ -136,6 +142,9 @@ $(function () {
     $(window).resize(function () {
 
         if ($(window).width() < 941) {
+            $('#article23 .photo-article').attr('src', 'images/skyscraper(responsive).jpg');
+            $('#article22 .photo-article').attr('src', 'images/trois_siecles(responsive).jpg');
+            $('#article21 .photo-article').attr('src', 'images/consommation(responsive).jpg');
             $('#article20 .photo-article').attr('src', 'images/fruits-legumes(responsive).jpg');
             $('#article19 .photo-article').attr('src', 'images/viande(responsive).jpg');
             $('#article18 .photo-article').attr('src', 'images/climat(responsive).jpg');
@@ -160,6 +169,9 @@ $(function () {
         }
 
         if ($(window).width() > 941) {
+            $('#article23 .photo-article').attr('src', 'images/skyscraper(600x700).jpg');
+            $('#article22 .photo-article').attr('src', 'images/trois_siecles(700x600).jpg');
+            $('#article21 .photo-article').attr('src', 'images/consommation(600x700).jpg');
             $('#article20 .photo-article').attr('src', 'images/fruits-legumes(600x700).jpg');
             $('#article19 .photo-article').attr('src', 'images/viande(600x700).jpg');
             $('#article18 .photo-article').attr('src', 'images/climat(600x700).jpg');
