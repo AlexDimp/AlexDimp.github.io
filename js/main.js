@@ -66,6 +66,11 @@ $(function () {
 
 
         if ($(window).width() < 941) {
+            $('#article28 .photo-article').attr('src', 'images/article-28(responsive).jpg');
+            $('#article27 .photo-article').attr('src', 'images/article-27(responsive).jpg');
+            $('#article26 .photo-article').attr('src', 'images/article-26(responsive).jpg');
+            $('#article25 .photo-article').attr('src', 'images/article-25(responsive).jpg');
+            $('#article24 .photo-article').attr('src', 'images/article-24(responsive).jpg');
             $('#article23 .photo-article').attr('src', 'images/skyscraper(responsive).jpg');
             $('#article22 .photo-article').attr('src', 'images/trois_siecles(responsive).jpg');
             $('#article21 .photo-article').attr('src', 'images/consommation(responsive).jpg');
@@ -93,6 +98,11 @@ $(function () {
         }
 
         if ($(window).width() > 941) {
+            $('#article28 .photo-article').attr('src', 'images/article-28(600x700).jpg');
+            $('#article27 .photo-article').attr('src', 'images/article-27(600x700).jpg');
+            $('#article26 .photo-article').attr('src', 'images/article-26(600x700).jpg');
+            $('#article25 .photo-article').attr('src', 'images/article-25(600x700).jpg');
+            $('#article24 .photo-article').attr('src', 'images/article-24(600x700).png');
             $('#article23 .photo-article').attr('src', 'images/skyscraper(600x700).jpg');
             $('#article22 .photo-article').attr('src', 'images/trois_siecles(700x600).jpg');
             $('#article21 .photo-article').attr('src', 'images/consommation(600x700).jpg');
@@ -142,6 +152,11 @@ $(function () {
     $(window).resize(function () {
 
         if ($(window).width() < 941) {
+            $('#article28 .photo-article').attr('src', 'images/article-28(responsive).jpg');
+            $('#article27 .photo-article').attr('src', 'images/article-27(responsive).jpg');
+            $('#article26 .photo-article').attr('src', 'images/article-26(responsive).jpg');
+            $('#article25 .photo-article').attr('src', 'images/article-25(responsive).jpg');
+            $('#article24 .photo-article').attr('src', 'images/article-24(responsive).jpg');
             $('#article23 .photo-article').attr('src', 'images/skyscraper(responsive).jpg');
             $('#article22 .photo-article').attr('src', 'images/trois_siecles(responsive).jpg');
             $('#article21 .photo-article').attr('src', 'images/consommation(responsive).jpg');
@@ -169,6 +184,11 @@ $(function () {
         }
 
         if ($(window).width() > 941) {
+            $('#article28 .photo-article').attr('src', 'images/article-28(600x700).jpg');
+            $('#article27 .photo-article').attr('src', 'images/article-27(600x700).jpg');
+            $('#article26 .photo-article').attr('src', 'images/article-26(600x700).jpg');
+            $('#article25 .photo-article').attr('src', 'images/article-25(600x700).jpg');
+            $('#article24 .photo-article').attr('src', 'images/article-24(600x700).png');
             $('#article23 .photo-article').attr('src', 'images/skyscraper(600x700).jpg');
             $('#article22 .photo-article').attr('src', 'images/trois_siecles(700x600).jpg');
             $('#article21 .photo-article').attr('src', 'images/consommation(600x700).jpg');
