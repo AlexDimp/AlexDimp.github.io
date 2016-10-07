@@ -66,6 +66,10 @@ $(function () {
 
 
         if ($(window).width() < 941) {
+            $('#article32 .photo-article').attr('src', 'images/article-32(responsive).png');
+            $('#article31 .photo-article').attr('src', 'images/article-31(responsive).jpeg');
+            $('#article30 .photo-article').attr('src', 'images/article-30(responsive).jpeg');
+            $('#article29 .photo-article').attr('src', 'images/article-29(responsive).jpeg');
             $('#article28 .photo-article').attr('src', 'images/article-28(responsive).jpg');
             $('#article27 .photo-article').attr('src', 'images/article-27(responsive).jpg');
             $('#article26 .photo-article').attr('src', 'images/article-26(responsive).jpg');
@@ -98,6 +102,8 @@ $(function () {
         }
 
         if ($(window).width() > 941) {
+            $('#article30 .photo-article').attr('src', 'images/article-30(600x700).jpeg');
+            $('#article29 .photo-article').attr('src', 'images/article-29(600x700).jpeg');
             $('#article28 .photo-article').attr('src', 'images/article-28(600x700).jpg');
             $('#article27 .photo-article').attr('src', 'images/article-27(600x700).jpg');
             $('#article26 .photo-article').attr('src', 'images/article-26(600x700).jpg');
@@ -152,6 +158,10 @@ $(function () {
     $(window).resize(function () {
 
         if ($(window).width() < 941) {
+            $('#article32 .photo-article').attr('src', 'images/article-32(responsive).png');
+            $('#article31 .photo-article').attr('src', 'images/article-31(responsive).jpeg');
+            $('#article30 .photo-article').attr('src', 'images/article-30(responsive).jpeg');
+            $('#article29 .photo-article').attr('src', 'images/article-29(responsive).jpeg');
             $('#article28 .photo-article').attr('src', 'images/article-28(responsive).jpg');
             $('#article27 .photo-article').attr('src', 'images/article-27(responsive).jpg');
             $('#article26 .photo-article').attr('src', 'images/article-26(responsive).jpg');
@@ -184,6 +194,7 @@ $(function () {
         }
 
         if ($(window).width() > 941) {
+            $('#article29 .photo-article').attr('src', 'images/article-29(600x700).jpeg');
             $('#article28 .photo-article').attr('src', 'images/article-28(600x700).jpg');
             $('#article27 .photo-article').attr('src', 'images/article-27(600x700).jpg');
             $('#article26 .photo-article').attr('src', 'images/article-26(600x700).jpg');
