@@ -320,8 +320,6 @@ $(function () {
             $('#introduction-auteurs-participatifs').stop().animate({'opacity': 1}, 100);
         }
 
-
-
         if ($(window).scrollTop() > 2750) {
 
             $('#aurelien').css('transform', 'scale(1)');
