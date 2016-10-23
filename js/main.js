@@ -66,7 +66,7 @@ $(function () {
 
 
         if ($(window).width() < 941) {
-            $('#article33 .photo-article').attr('src', 'images/article-33(responsive).jpg');
+            $('#article33 .photo-article').attr('src', 'images/article-33(responsive).jpeg');
             $('#article32 .photo-article').attr('src', 'images/article-32(responsive).png');
             $('#article31 .photo-article').attr('src', 'images/article-31(responsive).jpeg');
             $('#article30 .photo-article').attr('src', 'images/article-30(responsive).jpeg');
@@ -159,7 +159,7 @@ $(function () {
     $(window).resize(function () {
 
         if ($(window).width() < 941) {
-            $('#article33 .photo-article').attr('src', 'images/article-33(responsive).jpg');
+            $('#article33 .photo-article').attr('src', 'images/article-33(responsive).jpeg');
             $('#article32 .photo-article').attr('src', 'images/article-32(responsive).png');
             $('#article31 .photo-article').attr('src', 'images/article-31(responsive).jpeg');
             $('#article30 .photo-article').attr('src', 'images/article-30(responsive).jpeg');
